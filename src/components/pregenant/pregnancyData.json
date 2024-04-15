@@ -17,7 +17,7 @@
       "height": "0.2 inches",
       "weight": "0.02 ounces",
       "images": {
-        "baby": "week2_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/pregnancy-week-3-blastocycst_4x3.png?width=396",
         "sizeComparison": "week2_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -30,7 +30,7 @@
       "height": "0.3 inches",
       "weight": "0.03 ounces",
       "images": {
-        "baby": "week3_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/pregnancy-week-4-yolk-sac_4x3.png?width=396",
         "sizeComparison": "week3_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -43,7 +43,7 @@
       "height": "0.4 inches",
       "weight": "0.04 ounces",
       "images": {
-        "baby": "week4_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/pregnancy-week-5-amniotic-sac_4x3.png?width=396",
         "sizeComparison": "week4_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -56,7 +56,7 @@
       "height": "0.5 inches",
       "weight": "0.05 ounces",
       "images": {
-        "baby": "week5_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/pregnancy-week-6-webbed-hands_4x3.png?width=396",
         "sizeComparison": "week5_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -69,7 +69,7 @@
       "height": "0.6 inches",
       "weight": "0.06 ounces",
       "images": {
-        "baby": "week6_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/pregnancy-week-7-tailbone_4x3.png?width=396",
         "sizeComparison": "week6_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -82,7 +82,7 @@
       "height": "0.7 inches",
       "weight": "0.07 ounces",
       "images": {
-        "baby": "week7_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/pregnancy-week-8-brain-nerve-cells_4x3.png?width=396",
         "sizeComparison": "week7_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -95,7 +95,7 @@
       "height": "0.8 inches",
       "weight": "0.08 ounces",
       "images": {
-        "baby": "week8_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/pregnancy-week-9-finger-touch-pads_4x3.png?width=396",
         "sizeComparison": "week8_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -108,7 +108,7 @@
       "height": "0.9 inches",
       "weight": "0.09 ounces",
       "images": {
-        "baby": "week9_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/pregnancy-week-10-fingernails_4x3.png?width=396",
         "sizeComparison": "week9_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -121,7 +121,7 @@
       "height": "1 inch",
       "weight": "0.1 ounces",
       "images": {
-        "baby": "week10_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/pregnancy-week-11-tooth-buds_4x3.png?width=396   ",
         "sizeComparison": "week10_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -134,7 +134,7 @@
       "height": "1.5 inches",
       "weight": "0.25 ounces",
       "images": {
-        "baby": "week11_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/pregnancy-week-12-eyelids_4x3.png?width=396",
         "sizeComparison": "week11_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -147,7 +147,7 @@
       "height": "2 inches",
       "weight": "0.5 ounces",
       "images": {
-        "baby": "week12_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/pregnancy-week-13-fingerprints_4x3.png?width=396",
         "sizeComparison": "week12_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -160,7 +160,7 @@
       "height": "2.5 inches",
       "weight": "1 ounce",
       "images": {
-        "baby": "week13_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/14-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week13_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -173,7 +173,7 @@
       "height": "3 inches",
       "weight": "1.5 ounces",
       "images": {
-        "baby": "week14_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/15-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week14_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -186,7 +186,7 @@
       "height": "4 inches",
       "weight": "2.5 ounces",
       "images": {
-        "baby": "week15_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/16-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week15_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -199,7 +199,7 @@
       "height": "5 inches",
       "weight": "3.5 ounces",
       "images": {
-        "baby": "week16_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/17-weeks-pregnant_4x3.png?width=396g",
         "sizeComparison": "week16_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -212,7 +212,7 @@
       "height": "6 inches",
       "weight": "5 ounces",
       "images": {
-        "baby": "week17_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/18-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week17_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -225,7 +225,7 @@
       "height": "7 inches",
       "weight": "7 ounces",
       "images": {
-        "baby": "week18_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/19-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week18_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -238,7 +238,7 @@
       "height": "8 inches",
       "weight": "8.5 ounces",
       "images": {
-        "baby": "week19_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/20-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week19_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -251,7 +251,7 @@
       "height": "10 inches",
       "weight": "10.5 ounces",
       "images": {
-        "baby": "week20_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/21-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week20_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -264,7 +264,7 @@
       "height": "11 inches",
       "weight": "12.5 ounces",
       "images": {
-        "baby": "week21_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/22-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week21_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -277,7 +277,7 @@
       "height": "11.5 inches",
       "weight": "15 ounces",
       "images": {
-        "baby": "week22_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/23-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week22_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -290,7 +290,7 @@
       "height": "12 inches",
       "weight": "1 pound",
       "images": {
-        "baby": "week23_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/24-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week23_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -303,7 +303,7 @@
       "height": "12.5 inches",
       "weight": "1.25 pounds",
       "images": {
-        "baby": "week24_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/25-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week24_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -316,7 +316,7 @@
       "height": "13 inches",
       "weight": "1.5 pounds",
       "images": {
-        "baby": "week25_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/26-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week25_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -329,7 +329,7 @@
       "height": "14 inches",
       "weight": "1.75 pounds",
       "images": {
-        "baby": "week26_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/27-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week26_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -342,7 +342,7 @@
       "height": "14.5 inches",
       "weight": "2 pounds",
       "images": {
-        "baby": "week27_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/27-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week27_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -355,7 +355,7 @@
       "height": "15 inches",
       "weight": "2.25 pounds",
       "images": {
-        "baby": "week28_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/29-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week28_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -368,7 +368,7 @@
       "height": "15.5 inches",
       "weight": "2.5 pounds",
       "images": {
-        "baby": "week29_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/30-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week29_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -381,7 +381,7 @@
       "height": "16 inches",
       "weight": "2.75 pounds",
       "images": {
-        "baby": "week30_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/31-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week30_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -394,7 +394,7 @@
       "height": "16.5 inches",
       "weight": "3.25 pounds",
       "images": {
-        "baby": "week31_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/32-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week31_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -407,7 +407,7 @@
       "height": "17 inches",
       "weight": "3.75 pounds",
       "images": {
-        "baby": "week32_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/33-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week32_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -420,7 +420,7 @@
       "height": "17.5 inches",
       "weight": "4.25 pounds",
       "images": {
-        "baby": "week33_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/34-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week33_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -433,7 +433,7 @@
       "height": "18 inches",
       "weight": "4.75 pounds",
       "images": {
-        "baby": "week34_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/35-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week34_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -446,7 +446,7 @@
       "height": "18.5 inches",
       "weight": "5.25 pounds",
       "images": {
-        "baby": "week35_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/36-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week35_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -459,7 +459,7 @@
       "height": "19 inches",
       "weight": "5.75 pounds",
       "images": {
-        "baby": "week36_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/37-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week36_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -472,7 +472,7 @@
       "height": "19.5 inches",
       "weight": "6.25 pounds",
       "images": {
-        "baby": "week37_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/38-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week37_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -485,7 +485,7 @@
       "height": "20 inches",
       "weight": "6.5 pounds",
       "images": {
-        "baby": "week38_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/39-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week38_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -498,7 +498,7 @@
       "height": "20 inches",
       "weight": "7 pounds",
       "images": {
-        "baby": "week39_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/40-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week39_size_comparison.jpg"
       },
       "weeklyReads": [
@@ -511,7 +511,7 @@
       "height": "20 inches",
       "weight": "7.5 pounds",
       "images": {
-        "baby": "week40_baby.jpg",
+        "baby": "https://assets.babycenter.com/ims/2018/06/41-weeks-pregnant_4x3.png?width=396",
         "sizeComparison": "week40_size_comparison.jpg"
       },
       "weeklyReads": [
