@@ -16,7 +16,7 @@ root.render(
     }}
   >
   <Router>
-    <App />
+    <App/>
   </Router>
  
  </Auth0Provider>

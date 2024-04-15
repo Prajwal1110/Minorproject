@@ -37,7 +37,7 @@ const Login = () => {
         email,
         password,
       };
-      navigate("/cover")
+      navigate("/pregenant/welcome")
       // Store user data in local storage
       localStorage.setItem("user", JSON.stringify(newUser));
       setIsLogin(true);
@@ -58,7 +58,7 @@ const Login = () => {
           <img
             className="ml-5"
             width={"250px"}
-            src="https://cdn0.iconfinder.com/data/icons/raising-children-outline/512/0_Pregnant-256.png"
+            src="https://cdn2.iconfinder.com/data/icons/pregnancy-abortion/64/180_obstetrics-pregnant-woman-belly-pregnancy-mother-256.png"
             alt="twitter-logo"
           />
         </div>
@@ -69,7 +69,7 @@ const Login = () => {
           <h1 className="mt-4 mb-2 text-2xl font-bold">
             {isLogin ? "Login" : "Singup"}
           </h1>
-          <form onSubmit={submitHandler} className="flex flex-col w-[55%]">
+          <form onSubmit={submitHandler} className="flex flex-col w-[100%]">
             {!isLogin && (
               <>
                 <input
@@ -95,12 +95,22 @@ const Login = () => {
               placeholder="Email"
               className="w-full md:w-75 outline-blue-500 border border-gray-800 px-3 py-2 rounded-full my-1 font-semibold"
 />
-            <input
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              placeholder="Password"
+<input
               className="outline-blue-500 border border-gray-800 px-3 py-2 rounded-full my-1 font-semibold"
+              name="whatsappNumber"
+              type="tel"
+              placeholder="WhatsApp Number"
+              // value={formData.whatsappNumber}
+              // onChange={handleChange}
+            />
+         <label className="font-semibold">Last Period Date</label>
+            <input
+              className="outline-blue-500 border border-gray-800 px-3 py-2 rounded-full my-1 font-semibold"
+              name="lastPeriodDate"
+              type="date"
+              placeholder="Last Period Date"
+              // value={formData.lastPeriodDate}
+              // onChange={handleChange}
             />
             <button className="bg-[#1D9BF0] border-none py-2 my-4 rounded-full text-lg text-white">
               {isLogin ? "Login" : "Create Account"}

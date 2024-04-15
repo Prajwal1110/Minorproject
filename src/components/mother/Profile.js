@@ -39,6 +39,7 @@ const Profile = () => {
         </div>
         <h1 className='font-bold text-lg ml-2'>Change Baby Date of Birth</h1>
     </div>
+    
     <div className='flex items-center my-2 px-4 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
         <div>
             <MdPrivacyTip size="24px" />

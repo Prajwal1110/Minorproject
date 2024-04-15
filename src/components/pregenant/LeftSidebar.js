@@ -2,7 +2,7 @@ import React from 'react';
 import { IoMdHome } from "react-icons/io";
 import { MdLiveTv } from "react-icons/md";
 
-
+import { MdHealthAndSafety } from "react-icons/md";
 import { IoSearch } from "react-icons/io5";
 import { CiUser } from "react-icons/ci";
 import { PiTelevisionBold } from "react-icons/pi";
@@ -14,7 +14,7 @@ import axios from "axios";
 // import { USER_API_END_POINT } from '../utils/constant';
 import toast from "react-hot-toast"
 // import { getMyProfile, getOtherUsers, getUser } from '../redux/userSlice';
- 
+import { RiQuestionnaireFill } from "react-icons/ri";
 
 const LeftSidebar = () => {
 
@@ -49,15 +49,15 @@ const LeftSidebar = () => {
                     </Link>
                     <div className='flex items-center my-2 px-4 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
                         <div>
-                            <MdLiveTv size="24px" />
+                            <MdHealthAndSafety size="24px" />
                         </div>
-                        <h1 className='font-bold text-lg ml-2'>Program</h1>
+                        <h1 className='font-bold text-lg ml-2'>Health</h1>
                     </div>
                     <div className='flex items-center my-2 px-4 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
                         <div>
-                            <IoSearch size="24px" />
+                            <CiUser size="24px" />
                         </div>
-                        <h1 className='font-bold text-lg ml-2'>Discover</h1>
+                        <h1 className='font-bold text-lg ml-2'>Program</h1>
                     </div>
                     <Link to ={`/profile`}className='flex items-center my-2 px-4 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
                         <div>
@@ -67,16 +67,16 @@ const LeftSidebar = () => {
                     </Link>
                     <div className='flex items-center my-2 px-4 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
                         <div>
-                            <PiTelevisionBold size="24px" />
+                            <RiQuestionnaireFill size="24px" />
                         </div>
-                        <h1 className='font-bold text-lg ml-2'>Live</h1>
+                        <h1 className='font-bold text-lg ml-2'>Ask Doctor</h1>
                     </div>
-                    <div className='flex items-center my-2 px-4 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
+                    {/* <div className='flex items-center my-2 px-4 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
                         <div>
                             <AiOutlineLogout size="24px" />
                         </div>
                         <h1 className='font-bold text-lg ml-2'>Logout</h1>
-                    </div>
+                    </div> */}
                      {/* <button className='px-4 py-2 border-none text-md bg-[#1D9BF0] w-full rounded-full text-white font-bold'>Post</button> */}
                 </div>
             </div>

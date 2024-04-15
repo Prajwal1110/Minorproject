@@ -13,9 +13,13 @@ const Cover = () => {
    const navigate=useNavigate();
 
 
-   const handlelogin=()=>
+   const handlePregnantlogin=()=>
    {
-        navigate("/login")
+        navigate("/pregnant/login")
+   }
+   const handleMotherlogin=()=>
+   {
+        navigate("/mother/login")
    }
     return (
         <div class="flex justify-center items-center h-screen">
@@ -34,14 +38,14 @@ const Cover = () => {
                     {/* <!-- Pregnancy section --> */}
                     <div class="flex flex-col items-center w-1/2 bg-orange-300 py-4 rounded-md ml-4">
                         <img
-                            src="https://cdn0.iconfinder.com/data/icons/raising-children-outline/512/0_Pregnant-256.png"
+                            src="https://cdn2.iconfinder.com/data/icons/pregnancy-abortion/64/180_obstetrics-pregnant-woman-belly-pregnancy-mother-256.png"
                             alt="Pregnancy Image"
                             class="w-full mb-2 mx-4"
                         />
 
                         <p class="text-2xl font-bold">I'm pregnant</p>
                         <button className="bg-orange-500 text-white font-bold py-2 px-4 rounded-full" 
-                       onClick={handlelogin} >
+                       onClick={handlePregnantlogin} >
                             Next
                         </button>
                     </div>
@@ -54,7 +58,7 @@ const Cover = () => {
                             class="w-full mb-2 mx-4"
                         />
                         <p class="text-2xl font-bold">I'm Mother</p>
-                        <button className="bg-orange-500 text-white font-bold py-2 px-4 rounded-full " onClick={handlelogin}    >
+                        <button className="bg-orange-500 text-white font-bold py-2 px-4 rounded-full " onClick={handleMotherlogin}>
                             Next    
                         </button>
                     </div>
