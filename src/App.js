@@ -15,7 +15,7 @@ import NutritionScreen from './components/pregenant/question3';
 import ActivityScreen from './components/pregenant/question4';
 import PregnancyCalculator from './components/pregenant/pprofile';
 import PHome from './components/pregenant/phome';
-import PPHealth from './components/pregenant/PHealth';
+import PHealth from './components/pregenant/PHealth';
 import MotherLogin from './components/mother/Login';
 import Program from './components/mother/Program';
 
@@ -29,7 +29,7 @@ function App() {
           <Route path="/" element={<Cover/>}/>
           <Route path="/pregnant/login" element={<Login/>}/>
           <Route path="/mother/login" element={<MotherLogin/>}/>
-          <Route path=" " element={<SignUpForm/>}/>
+          {/* <Route path=" " element={<SignUpForm/>}/> */}
           <Route path="/mother/home" element={<Home/>}/>
           <Route path="/mother/discover" element={<Discover/>}/>
           <Route path="/mother/program" element={<Program/>}/>
@@ -42,7 +42,7 @@ function App() {
           <Route path="/pregenant/question4" element={<ActivityScreen/>}/>
           <Route path="/pregenant/profile" element={<PregnancyCalculator/>}/>
           <Route path="/pregenant/home" element={<PHome/>}/>
-          <Route path="/pregenant/health" element={<PPHealth/>}/>
+          <Route path="/pregenant/health" element={<PHealth/>}/>
         </Routes>
     </div>
     

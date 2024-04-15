@@ -9,6 +9,8 @@ import { MdPrivacyTip } from "react-icons/md";
 import { IoStar } from "react-icons/io5";
 import { AiOutlineUserDelete } from "react-icons/ai";
 import { AiOutlineLogout } from "react-icons/ai";
+import { Link } from 'react-router-dom';
+
 
 const PregnancyCalculator = () => {
     const[lmp,setLmp]=useState('');
@@ -30,12 +32,12 @@ const PregnancyCalculator = () => {
         </div>
         <h1 className='font-bold text-lg ml-2'>Share it</h1>
     </div>
-    <div className='flex items-center my-2 px-4 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
+    <Link to="/mother/login" className='flex items-center my-2 px-4 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
         <div>
             <IoMdSwap size="24px" />
         </div>
-        <h1 className='font-bold text-lg ml-2'>Use Pregnancy Mode</h1>
-    </div>
+        <h1 className='font-bold text-lg ml-2'>Use Parenting Mode</h1>
+    </Link>
     <div className='flex items-center my-2 px-4 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
         <div>
             <IoCalendarNumber size="24px" />
@@ -66,12 +68,12 @@ const PregnancyCalculator = () => {
         </div>
         <h1 className='font-bold text-lg ml-2'>Delete Account</h1>
     </div>
-    <div className='flex items-center my-2 px-4 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
+    <Link to="/" className='flex items-center my-2 px-4 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
         <div>
             <AiOutlineLogout size="24px" />
         </div>
         <h1 className='font-bold text-lg ml-2'>Logout</h1>
-    </div>
+    </Link>
 </div>
 
     <RightSidebar/>

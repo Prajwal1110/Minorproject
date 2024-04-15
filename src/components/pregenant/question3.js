@@ -8,20 +8,7 @@ const NutritionScreen = () => {
         <p className="text-lg mt-2">Are you eating well, mumma?</p>
         {/* Placeholder for fetus illustration */}
         <div className="my-4">
-          <svg
-            className="mx-auto h-32 w-32 text-yellow-400"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            {/* Replace with actual SVG or image */}
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M12 8c2.28 0 4-1.79 4-4s-1.72-4-4-4-4 1.79-4 4 1.72 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
-            />
-          </svg>
+        <img src="https://cdn3.iconfinder.com/data/icons/baby-149/500/baby_bath_happy_hygiene_care_cute_clean_healthy-512.png" alt="baby4" />
         </div>
         <div className="flex justify-center gap-4 mb-4">
           <Link to="/pregenant/question4" className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
@@ -35,6 +22,8 @@ const NutritionScreen = () => {
           <p className="text-lg">
             Don't worry Mumma, iMumz gives you weekly meal plans for my good growth.
           </p>
+          <br />
+    
           <Link to="/pregenant/question4" className="bg-white text-orange-500 font-bold py-2 px-4 rounded-full mt-4">
             CONTINUE
           </Link>

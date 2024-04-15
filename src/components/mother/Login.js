@@ -37,7 +37,7 @@ const MotherLogin = () => {
         email,
         password,
       };
-      navigate("/cover")
+      navigate("/mother/home")
       // Store user data in local storage
       localStorage.setItem("user", JSON.stringify(newUser));
       setIsLogin(true);
