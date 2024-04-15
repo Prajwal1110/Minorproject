@@ -27,17 +27,17 @@ const NutritionScreen = () => {
           <Link to="/pregenant/question4" className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
             YES I AM
           </Link>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+          <Link to="/pregenant/question4" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
             I'M NOT SURE
-          </button>
+          </Link>
         </div>
         <div className="bg-orange-500 p-4 rounded-lg">
           <p className="text-lg">
             Don't worry Mumma, iMumz gives you weekly meal plans for my good growth.
           </p>
-          <button className="bg-white text-orange-500 font-bold py-2 px-4 rounded-full mt-4">
+          <Link to="/pregenant/question4" className="bg-white text-orange-500 font-bold py-2 px-4 rounded-full mt-4">
             CONTINUE
-          </button>
+          </Link>
         </div>
       </div>
     </div>
