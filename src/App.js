@@ -18,6 +18,7 @@ import PHome from './components/pregenant/phome';
 import PHealth from './components/pregenant/PHealth';
 import MotherLogin from './components/mother/Login';
 import Program from './components/mother/Program';
+import PProgram from './components/pregenant/pprogram';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
           <Route path="/pregenant/profile" element={<PregnancyCalculator/>}/>
           <Route path="/pregenant/home" element={<PHome/>}/>
           <Route path="/pregenant/health" element={<PHealth/>}/>
+          <Route path="/pregenant/program" element={<PProgram/>}/>
         </Routes>
     </div>
     
