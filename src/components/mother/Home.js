@@ -92,11 +92,7 @@ const Home = () => {
             <p>PARENTING GUIDING</p>
           </div>
         </div>
-
-
-
-
-      </div>
+       </div>
       <RightSidebar />
     </div>
   )

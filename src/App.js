@@ -19,6 +19,10 @@ import PHealth from './components/pregenant/PHealth';
 import MotherLogin from './components/mother/Login';
 import Program from './components/mother/Program';
 import PProgram from './components/pregenant/pprogram';
+import Content from './components/Content';
+import Discussion from './components/Discussion';
+import Research from './components/Research';
+
 
 
 function App() {
@@ -28,9 +32,9 @@ function App() {
     <div className="App">
         <Routes>
           <Route path="/" element={<Cover/>}/>
+          <Route path="/pregnancy"element={<Content/>}/>
           <Route path="/pregnant/login" element={<Login/>}/>
           <Route path="/mother/login" element={<MotherLogin/>}/>
-          {/* <Route path=" " element={<SignUpForm/>}/> */}
           <Route path="/mother/home" element={<Home/>}/>
           <Route path="/mother/discover" element={<Discover/>}/>
           <Route path="/mother/program" element={<Program/>}/>
@@ -45,6 +49,8 @@ function App() {
           <Route path="/pregenant/home" element={<PHome/>}/>
           <Route path="/pregenant/health" element={<PHealth/>}/>
           <Route path="/pregenant/program" element={<PProgram/>}/>
+          <Route path="/askdoctor" element={<Discussion/>}/>
+          <Route path="/research" element={<Research/>}/>
         </Routes>
     </div>
     

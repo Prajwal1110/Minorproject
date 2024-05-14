@@ -1,4 +1,4 @@
-[
+  [
     {
       "week": 1,
       "height": "0.1 inches",
@@ -7,10 +7,12 @@
         "baby": "https://assets.babycenter.com/ims/2018/06/pregnancy-week-2-fertilization_4x3.png?width=396",
         "sizeComparison": "week1_size_comparison.jpg"
       },
-      "weeklyReads": [
-        "Your baby is just starting to develop, and the neural tube is forming.",
-        "Take prenatal vitamins containing folic acid to support your baby's development."
-      ]
+      "weeklyReads": {
+        "content1":"Your baby is just starting to develop, and the neural tube is forming.",
+        "pic1":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP-yzO1PH2XKtn1OfkW1E9ewoVHTvBcHdOLD5Roz9yJA&s",
+        "content2":"Take prenatal vitamins containing folic acid to support your baby's development.",
+        "pic2":""
+      }
     },
     {
       "week": 2,
