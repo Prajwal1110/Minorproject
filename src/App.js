@@ -1,12 +1,8 @@
 
 import './App.css';
-import Home from './components/mother/Home';
 import Login from './components/pregenant/Login';
 import {Routes,Route} from "react-router-dom"
-import Discover from './components/mother/Discover';
 import Cover from './components/Cover';
-import Profile from './components/mother/Profile';
-import SignUpForm from './components/mother/msignup';
 import PSignupForm from './components/pregenant/Signup';
 import WelcomeScreen from './components/pregenant/WelcomeScreen';
 import StressManagementScreen from './components/pregenant/question1';
@@ -16,12 +12,12 @@ import ActivityScreen from './components/pregenant/question4';
 import PregnancyCalculator from './components/pregenant/pprofile';
 import PHome from './components/pregenant/phome';
 import PHealth from './components/pregenant/PHealth';
-import MotherLogin from './components/mother/Login';
-import Program from './components/mother/Program';
 import PProgram from './components/pregenant/pprogram';
 import Content from './components/Content';
 import Discussion from './components/Discussion';
 import Research from './components/Research';
+import AboutUs from './components/AboutUs';
+import ContactUs from './components/ContactUs';
 
 
 
@@ -34,11 +30,6 @@ function App() {
           <Route path="/" element={<Cover/>}/>
           <Route path="/pregnancy"element={<Content/>}/>
           <Route path="/pregnant/login" element={<Login/>}/>
-          <Route path="/mother/login" element={<MotherLogin/>}/>
-          <Route path="/mother/home" element={<Home/>}/>
-          <Route path="/mother/discover" element={<Discover/>}/>
-          <Route path="/mother/program" element={<Program/>}/>
-          <Route path="/profile" element={<Profile/>}/>
           <Route path="/pregenant/signup" element={<PSignupForm/>}/>
           <Route path="/pregenant/welcome" element={<WelcomeScreen/>}/>
           <Route path="/pregenant/question1" element={<StressManagementScreen/>}/>
@@ -51,6 +42,8 @@ function App() {
           <Route path="/pregenant/program" element={<PProgram/>}/>
           <Route path="/askdoctor" element={<Discussion/>}/>
           <Route path="/research" element={<Research/>}/>
+          <Route path="/AboutUs" element={<AboutUs/>}/>
+          <Route path="/ContactUs" element={<ContactUs/>}/>
         </Routes>
     </div>
     

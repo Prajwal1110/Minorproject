@@ -3,21 +3,23 @@
 import React, { useState } from 'react';
 import { HeartIcon, ChatIcon, ShareIcon } from '@heroicons/react/outline'; // Assuming you have icons like these
 import Navbar from './Navbar';
+import Footer from './Footer';
+
 
 const Discussion = () => {
   // Sample data for discussion
   const [discussion, setDiscussion] = useState([
     {
       id: 1,
-      username: "Anonymous User",
-      message: "This is a sample discussion message.",
+      username: "Kajal Nikesh Patel",
+      message: "Can i eat ripe mango?",
       likes: 0,
       comments: [],
     },
     {
         id: 1,
-        username: "Anonymous User",
-        message: "This is a sample discussion message.",
+        username: "Unknown",
+        message: "hi doctor is goat milk or goat milk powder in powder in small quantity safe in Ist trimester of pregnancy??As it is required to be consumed as per our family ritual  ",
         likes: 0,
         comments: [],
       },
@@ -113,7 +115,7 @@ const Discussion = () => {
   const ProfileCard = ({ username }) => {
     return (
       <div className="flex items-center space-x-2">
-        <img src="avatar.jpg" alt="User Avatar" className="w-10 h-10 rounded-full" />
+        <img src="https://cdn4.iconfinder.com/data/icons/music-ui-solid-24px/24/user_account_profile-2-256.png" alt="User Avatar" className="w-10 h-10 rounded-full" />
         <span className="text-gray-700">{username}</span>
       </div>
     );
@@ -143,6 +145,8 @@ const Discussion = () => {
         </div>
       ))}
     </div>
+    <Footer/>
+
     </>
   );
 };
